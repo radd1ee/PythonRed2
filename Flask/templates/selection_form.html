@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор метода</title>
+</head>
+<body>
+    <h1>Выберите метод для получения погодных условий</h1>
+    <form action="/weather_choice" method="POST">
+        <label>
+            <input type="radio" name="choice" value="cities" required> По названию города
+        </label><br><br>
+        <label>
+            <input type="radio" name="choice" value="coordinates" required> По координатам
+        </label><br><br>
+        <input type="submit" value="Продолжить">
+    </form>
+</body>
+</html>

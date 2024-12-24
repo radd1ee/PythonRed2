@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результаты погодных условий</title>
+</head>
+<body>
+    <h1>Результаты погодных условий</h1>
+
+    <h2>Погода в выбранном городе</h2>
+    <p><strong>Температура:</strong> {{ point1["Температура (°C)"] }}°C</p>
+    <p><strong>Ощущается как:</strong> {{ point1["Ощущается как (°C)"] }}°C</p>
+    <p><strong>Влажность:</strong> {{ point1["Влажность (%)"] }}%</p>
+    <p><strong>Скорость ветра:</strong> {{ point1["Скорость ветра (км/ч)"] }} км/ч</p>
+    <p><strong>Осадки:</strong> {{ point1["Осадки (мм)"] }} мм</p>
+    <p><strong>Оценка:</strong> {{ result1 }}</p>
+
+    <br>
+    <a href="/">Вернуться назад</a>
+</body>
+</html>
